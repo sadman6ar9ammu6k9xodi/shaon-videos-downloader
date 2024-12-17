@@ -1,16 +1,16 @@
 <h3 align="center">
   
-  <p align="center"><img src="https://img.shields.io/badge/WLCM%20TO -NAYAN MEDIA DOWNLOADER-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
+  <p align="center"><img src="https://img.shields.io/badge/WLCM%20TO -SHAON MEDIA DOWNLOADER-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
   
 </h3>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Hello+World%2C+I'm+Mr-NAYAN+Here+🤙;𝙸𝚃'𝚜+𝙽𝙾𝚃+𝙰+𝙹𝚄𝚂𝚃+𝙽𝙰𝙼𝙴+𝙱𝚁𝙾+🥱;𝙸𝚃'𝚜+𝙰+𝙱𝚁𝙰𝙽𝙳+🔥;Respect+Mr.NAYAN+🥀;Thanks+My+All+Friend+🤙+🥰)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Hello+World%2C+I'm+Mr-SHAON+Here+🤙;𝙸𝚃'𝚜+𝙽𝙾𝚃+𝙰+𝙹𝚄𝚂𝚃+𝙽𝙰𝙼𝙴+𝙱𝚁𝙾+🥱;𝙸𝚃'𝚜+𝙰+𝙱𝚁𝙰𝙽𝙳+🔥;Respect+MR.SHAON+🥀;Thanks+My+All+Friend+🤙+🥰)](https://git.io/typing-svg)
 
 
 
 ## Instalation :
 ```bash
-> npm i nayan-videos-downloader
+> npm i shaon-videos-downloader
 ```
 ## Last Update 
 ```print
@@ -21,14 +21,14 @@
 
 ## Example (fb & insta)
 ```js
-const { ndown } = require("nayan-videos-downloader")
+const { ndown } = require("shaon-videos-downloader")
 let URL = await ndown("https://www.facebook.com/100000959749712/posts/pfbid0288xi44nvodK9d7r3wf4LHeM3dtEsVghQXmz5t59axwz7KdLStYyg4qfvTVrAL27Ll/?app=fbl")
 console.log(URL)
 ```
 ## Output Example
 ```
 {
-    "developer": "MOHAMMAD NAYAN",
+    "developer": "MOHAMMAD SHAON",
     "devfb": "https://www.facebook.com/profile.php?id=100000959749712",
     "devwp": "wa.me/+8801615298449",
     "status": true,
@@ -62,7 +62,7 @@ console.log(URL)
 ```
 ## Instagram Usage 
 ```js
-const {instagram} = require("nayan-videos-downloader");
+const {instagram} = require("shaon-videos-downloader");
 
 const link = "https://www.instagram.com/p/DAxzjkAyWOm/?igsh=MTZ5eThrMXpteTFpOA==" //past video link
 
@@ -74,14 +74,14 @@ const link = "https://www.instagram.com/p/DAxzjkAyWOm/?igsh=MTZ5eThrMXpteTFpOA==
 ```
 ## Example (TikTok)
 ```js
-const { tikdown } = require("nayan-videos-downloader")
+const { tikdown } = require("shaon-videos-downloader")
 let URL = await tikdown("https://vt.tiktok.com/ZSNvs6h6o/")
 console.log(URL)
 ```
 ## Output Example (tikTok)
 ```
 {
-    "developer": "MOHAMMAD NAYAN",
+    "developer": "MOHAMMAD SHAON",
     "devfb": "https://www.facebook.com/profile.php?id=100000959749712",
     "devwp": "wa.me/+8801615298449",
     "status": true,
@@ -106,20 +106,20 @@ console.log(URL)
 ```
 ## Example (YouTube)
 ```js
-const { ytdown } = require("nayan-videos-downloader")
+const { ytdown } = require("shaon-videos-downloader")
 let URL = await ytdown("https://youtu.be/aRSuyrZFu_Q?si=bsfzgeeGmRpsHqnF")
 console.log(URL)
 ```
 ## Example (Twitter)
 ```js
-const { twitterdown } = require("nayan-videos-downloader")
+const { twitterdown } = require("shaon-videos-downloader")
 let URL = await twitterdown("https://twitter.com/TeamAbhiSha/status/1743351410761019794?t=vms8wxcU0mQuhVxwGCHjFw&s=19")
 console.log(URL)
 ```
 ## Output Example (Twitter)
 ```
 {
-    "developer": "MOHAMMAD NAYAN",
+    "developer": "MOHAMMAD SHAON",
     "devfb": "https://www.facebook.com/profile.php?id=100000959749712",
     "devwp": "wa.me/+8801615298449",
     "status": true,
@@ -132,7 +132,7 @@ console.log(URL)
 
 ## Example Fbdown2
 ```js
-const { fbdown2 } = require("nayan-videos-downloader");
+const { fbdown2 } = require("shaon-videos-downloader");
 const request = require('request')
 
 const key = "Nayan" //dont change key
@@ -146,7 +146,7 @@ fbdown2(link, key).then(data => {
 ## Output Example (fbdown2)
 ```
 {
-    "developer": "MOHAMMAD NAYAN",
+    "developer": "MOHAMMAD SHAON",
     "devfb": "https://www.facebook.com/profile.php?id=100000959749712",
     "devwp": "wa.me/+8801615298449",
     "status": true,
@@ -160,7 +160,7 @@ fbdown2(link, key).then(data => {
 
 ## Usage GDLink 
 ```js
-const {GDLink} = require("nayan-videos-downloader");
+const {GDLink} = require("shaon-videos-downloader");
 
 const url = 'url' // Public Google Drive Url
 
@@ -171,7 +171,7 @@ GDLink(url).then(data => {
 ```
 ## Usage Pintarest 
 ```js
-const {pintarest} = require("nayan-videos-downloader");
+const {pintarest} = require("shaon-videos-downloader");
 
 const url = 'url' // pintarest post url
 
@@ -181,7 +181,7 @@ const url = 'url' // pintarest post url
 ```
 ## Usage CapCut 
 ```js
-const { capcut } = require("nayan-videos-downloader");
+const { capcut } = require("shaon-videos-downloader");
 
 const url = "link" // capcut link
 
@@ -191,7 +191,7 @@ capcut(url).then(data => {
 ```
 ## Usage Likee 
 ```js
-const { likee} = require("nayan-videos-downloader");
+const { likee} = require("shaon-videos-downloader");
 
  const url = "link" // past url
 likee(url).then(data => { 
@@ -200,7 +200,7 @@ likee(url).then(data => {
 ```
 ## Usage Threads
 ```js
-const { threads } = require("nayan-videos-downloader");
+const { threads } = require("shaon-videos-downloader");
 
  const url = "link" // past url
 threads(url).then(data => { 
@@ -213,7 +213,7 @@ support url: facebook, tiktok, twitter, instagram, youtube, pinterest, gdrive, c
 note: Let me know if any of the platforms you use are missing
 ```
 ```js
-const {alldown} = require("nayan-videos-downloader");
+const {alldown} = require("shaon-videos-downloader");
 const url = 'url' // past url
 
   alldown(url).then(data => {
@@ -223,7 +223,7 @@ const url = 'url' // past url
 ## Output Example (alldown)
 ```
 {
-    "developer": "MOHAMMAD NAYAN",
+    "developer": "MOHAMMAD SHAON",
     "devfb": "https://www.facebook.com/profile.php?id=100000959749712",
     "devwp": "wa.me/+8801615298449",
     "status": true,
@@ -236,8 +236,8 @@ const url = 'url' // past url
 }
 ```
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-green?style=for-the-badge&logo=whatsapp)](https://wa.me/+8801615298449)
-[![Facebook](https://img.shields.io/badge/Facebook-green?style=for-the-badge&logo=facebook)](https://www.facebook.com/www.xnxx.com169)
-[![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/100000959749712)
-[![Github](https://img.shields.io/badge/Github-MrDarkYTgreen?style=for-the-badge&logo=github)](https://github.com/MOHAMMAD-NAYAN)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-green?style=for-the-badge&logo=whatsapp)](https://wa.me/+8801814587247)
+[![Facebook](https://img.shields.io/badge/Facebook-green?style=for-the-badge&logo=facebook)](https://www.facebook.com/Hey.Its.Me.Shaon.Ahmed)
+[![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/Hey.Its.Me.Shaon.Ahmed)
+[![Github](https://img.shields.io/badge/Github-MrDarkYTgreen?style=for-the-badge&logo=github)](https://github.com/shaonproject)
 
