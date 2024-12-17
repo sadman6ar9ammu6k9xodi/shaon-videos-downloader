@@ -1,6 +1,6 @@
 {
-  "name": "nayan-videos-downloader",
-  "version": "0.1.0",
+  "name": "shaon-videos-downloader",
+  "version": "0.0.1",
   "description": "Fetch Url Downloads From Instagram & Facebook & TikTok & YouTube & Twitter & Google Drive & Pintarest & likee & threads",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MOHAMMAD-NAYAN/nayan-videos-downloader.git"
+    "url": "git+https://github.com/shaonproject/shaon-videos-downloader.git"
   },
   "keywords": [
     "instagram",
@@ -38,12 +38,12 @@
     "threads",
     "nayan"
   ],
-  "author": "NAYAN",
+  "author": "SHAON",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MOHAMMAD-NAYAN/nayan-videos-downloader/issues"
+    "url": "https://github.com/shaonproject/shaon-videos-downloader/issues"
   },
-  "homepage": "https://github.com/MOHAMMAD-NAYAN/nayan-videos-downloader#readme",
+  "homepage": "https://github.com/shaonproject/shaon-videos-downloader#readme",
   "dependencies": {
     "axios": "^1.6.7"
   },
