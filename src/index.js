@@ -8,7 +8,7 @@ module.exports.ndown = (url) => {
         !url.match(/(https|http):\/\/www.instagram.com\/(p|reel|tv|stories)/gi)
       )
         return resolve({
-          developer: 'MOHAMMAD NAYAN',
+          developer: 'SHAON AHMED',
           status: false,
           msg: `Link URL not valid`,
         });
@@ -19,7 +19,7 @@ module.exports.ndown = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'Something went wrong',
       });
@@ -36,7 +36,7 @@ module.exports.instagram = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'Instagram API error',
       });
@@ -54,7 +54,7 @@ module.exports.tikdown = (url) => {
         !url.match(/https:\/\/m\.tiktok\.com.*/)
       )
         return resolve({
-          developer: 'MOHAMMAD NAYAN',
+          developer: 'SHAON AHMED',
           status: false,
           msg: `Link URL not valid`,
         });
@@ -65,9 +65,9 @@ module.exports.tikdown = (url) => {
       resolve(data.data);
     } catch (e) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
-        devfb: 'https://www.facebook.com/profile.php?id=100000959749712',
-        devwp: 'wa.me/+8801615298449',
+        developer: 'SHAON AHMED',
+        devfb: 'https://www.facebook.com/Hey.Its.Me.Shaon.Ahmed',
+        devwp: 'wa.me/+8801814587247',
         status: false,
         msg: 'TikDown API off🐱',
       });
@@ -87,7 +87,7 @@ module.exports.ytdown = (url) => {
         !url.match(/https:\/\/(www\.)?youtube\.com\/playlist\?list=.*/i)
       )
         return resolve({
-          developer: 'MOHAMMAD NAYAN',
+          developer: 'SHAON AHMED',
           status: false,
           msg: `Link URL not valid`,
         });
@@ -98,7 +98,7 @@ module.exports.ytdown = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'YouTube API error',
       });
@@ -111,7 +111,7 @@ module.exports.threads = (url) => {
     try {
       if (!url.match(/^https:\/\/www\.threads\.net\/.*/))
         return resolve({
-          developer: 'MOHAMMAD NAYAN',
+          developer: 'SHAON AHMED',
           status: false,
           msg: `Link URL not valid`,
         });
@@ -122,7 +122,7 @@ module.exports.threads = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'Threads API error',
       });
@@ -138,7 +138,7 @@ module.exports.twitterdown = (url) => {
         !url.match(/^https:\/\/x\.com\/.*/)
       )
         return resolve({
-          developer: 'MOHAMMAD NAYAN',
+          developer: 'SHAON AHMED',
           status: false,
           msg: `Link URL not valid`,
         });
@@ -149,9 +149,9 @@ module.exports.twitterdown = (url) => {
       resolve(data.data);
     } catch (e) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
-        devfb: 'https://www.facebook.com/profile.php?id=100000959749712',
-        devwp: 'wa.me/+8801615298449',
+        developer: 'SHAON AHMED',
+        devfb: 'https://www.facebook.com/Hey.Its.Me.Shaon.Ahmed',
+        devwp: 'wa.me/+8801814587247',
         status: false,
         msg: 'Twitter API off🐱',
       });
@@ -164,14 +164,14 @@ module.exports.fbdown2 = (url, Key) => {
     try {
       if (!url)
         return resolve({
-          developer: 'MOHAMMAD NAYAN',
+          developer: 'SHAON AHMED',
           status: false,
           error: 'Missing URL',
         });
 
       if (!Key)
         return resolve({
-          developer: 'MOHAMMAD NAYAN',
+          developer: 'SHAON AHMED',
           status: false,
           error: 'Missing key',
         });
@@ -181,8 +181,8 @@ module.exports.fbdown2 = (url, Key) => {
         return resolve({
           error: 'Key invalid',
           msg: 'Contact owner for key',
-          fb: 'https://www.facebook.com/100000959749712',
-          wp: 'wa.me/+8801615298449',
+          fb: 'https://www.facebook.com/Hey.Its.Me.Shaon.Ahmed',
+          wp: 'wa.me/+8801814587247',
         });
 
       if (
@@ -192,7 +192,7 @@ module.exports.fbdown2 = (url, Key) => {
         !url.match(/https:\/\/m\.facebook\.com\/.*/)
       )
         return resolve({
-          developer: 'MOHAMMAD NAYAN',
+          developer: 'SHAON AHMED',
           status: false,
           msg: `Link URL not valid`,
         });
@@ -203,7 +203,7 @@ module.exports.fbdown2 = (url, Key) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'Facebook API error',
       });
@@ -220,7 +220,7 @@ module.exports.GDLink = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'Google Drive API error',
       });
@@ -237,7 +237,7 @@ module.exports.pintarest = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'Pinterest API error',
       });
@@ -254,7 +254,7 @@ module.exports.capcut = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'CapCut API error',
       });
@@ -271,7 +271,7 @@ module.exports.likee = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         msg: 'Likee API error',
       });
@@ -288,7 +288,7 @@ module.exports.alldown = (url) => {
       resolve(data.data);
     } catch (error) {
       resolve({
-        developer: 'MOHAMMAD NAYAN',
+        developer: 'SHAON AHMED',
         status: false,
         error: 'Unsupported URL',
         msg: 'Supported platforms: Facebook, TikTok, Twitter, Instagram, YouTube, Pinterest, Google Drive, CapCut',
