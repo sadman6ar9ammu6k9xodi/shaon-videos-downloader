@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const apiBaseUrl = 'https://nayan-video-downloader.vercel.app/';
+const apiBaseUrl = 'https://noobs-api-sable.vercel.app/';
 
 module.exports = {
   ndown: createRequest('ndown'),
@@ -14,7 +14,7 @@ module.exports = {
   pintarest: createRequest('pintarest'),
   capcut: createRequest('capcut'),
   likee: createRequest('likee'),
-  alldown: createRequest('alldown'),
+  alldl: createRequest('alldl'),
   spotifySearch: createRequest('spotify-search', (name, limit) => ({ name, limit })),
   spotifyDl: createRequest('spotifyDl', (url) => ({ url }))
 };
