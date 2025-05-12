@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const apiBaseUrl = 'https://noobs-api-sable.vercel.app/';
+const apiBaseUrl = 'https://noobs-api-production.up.railway.app/';
 
 module.exports = {
   ndown: createRequest('ndown'),
@@ -15,6 +15,7 @@ module.exports = {
   capcut: createRequest('capcut'),
   likee: createRequest('likee'),
   alldl: createRequest('alldl'),
+  alldown: createRequest('alldown'), 
   spotifySearch: createRequest('spotify-search', (name, limit) => ({ name, limit })),
   spotifyDl: createRequest('spotifyDl', (url) => ({ url }))
 };
