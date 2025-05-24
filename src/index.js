@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const apiBaseUrl = 'https://noobs-api-production.up.railway.app/';
+const apiBaseUrl = 'https://noobs-api-sable.vercel.app/';
 
 module.exports = {
   ndown: createRequest('ndown'),
