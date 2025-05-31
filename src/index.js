@@ -29,7 +29,7 @@ function createRequest(endpoint, formatData) {
         resolve(response.data);
       } catch (error) {
         resolve({
-          developer: 'SHAON AHMED',
+          developer: 'CYBER ULLASH',
           status: false,
           msg: `${capitalize(endpoint.replace(/^\w/, c => c.toUpperCase()))} API error`,
         });
